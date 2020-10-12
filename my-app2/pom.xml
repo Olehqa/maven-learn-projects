@@ -13,25 +13,17 @@
     <artifactId>my-app2</artifactId>
 
 
-
-
     <dependencies>
-<!--                <dependency>-->
-        <!--                    <groupId>org.selenium.selenium</groupId>-->
-<!--                    <artifactId>selenium-java</artifactId>-->
-<!--                    <version>3.141.59</version>-->
-<!--                </dependency>-->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <scope>test</scope>
+        </dependency>
 
-                <dependency>
-                    <groupId>org.testng</groupId>
-                    <artifactId>testng</artifactId>
-                    <scope>test</scope>
-                </dependency>
-
-                <dependency>
-                    <groupId>log4j</groupId>
-                    <artifactId>log4j</artifactId>
-                </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+        </dependency>
     </dependencies>
-    
+
 </project>

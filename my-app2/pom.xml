@@ -11,9 +11,6 @@
     </parent>
 
     <artifactId>my-app2</artifactId>
-    <dependencies>
-
-    </dependencies>
 
     <dependencyManagement>
         <dependencies>
@@ -33,5 +30,28 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-clean-plugin</artifactId>
+                </plugin>
+
+                <plugin>
+                    <artifactId>maven-resources-plugin</artifactId>
+                </plugin>
+
+                <plugin>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                </plugin>
+
+                <plugin>
+                    <artifactId>maven-failsafe-plugin.version</artifactId>
+                </plugin>
+
+            </plugins>
+        </pluginManagement>
+    </build>
 
 </project>
